@@ -31,6 +31,10 @@ public class GioHang implements IThanhToan{
         dsHH.add(HH);
     }
     
+    public void hienthiDSHH(){
+        for(int i = 0; i < dsHH.size(); i++)
+            dsHH.get(i).hienthi();
+    }
     public int tinhtien(){
         int S = 0;
         for(int i = 0; i < dsHH.size(); i++)

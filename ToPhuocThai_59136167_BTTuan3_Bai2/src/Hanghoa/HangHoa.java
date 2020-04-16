@@ -46,4 +46,10 @@ public class HangHoa {
     public void setMoTa(String moTa) {
         this.moTa = moTa;
     }   
+    
+    public void hienthi(){
+        System.out.println("Tên hàng hóa: " + tenHH);
+        System.out.println("Giá: " + gia);
+        System.out.println("Mô tả: " + moTa);
+    }
 }
