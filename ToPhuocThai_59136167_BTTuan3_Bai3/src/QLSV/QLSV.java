@@ -28,7 +28,6 @@ public class QLSV {
     }
     
     public void sapXep(){
-        SinhVien ss;
         for(int i = 0; i < dsSV.size() - 1; i++)
             for(int j = i+1; j < dsSV.size(); j++)
             {

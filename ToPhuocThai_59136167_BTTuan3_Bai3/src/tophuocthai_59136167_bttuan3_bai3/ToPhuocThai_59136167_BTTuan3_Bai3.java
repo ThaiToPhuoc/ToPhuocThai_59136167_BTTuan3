@@ -8,11 +8,11 @@ import QLSV.QLSV;
 import Sinhvien.SinhVien;
 import Isosanh.ISoSanh;
 import Isosanh.SoSanhTheoDiem;
-import java.util.Date;
 import Isosanh.SoSanhTheoDiem;
 import Isosanh.SoSanhTheoTen;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 /**
  *
  * @author tophu
